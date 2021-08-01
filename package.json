@@ -1,0 +1,23 @@
+{
+  "name": "ui-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.11.2"
+  }
+}
